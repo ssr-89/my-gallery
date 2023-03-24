@@ -160,7 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     /*Управление колёсиком мыши*/
     mousewheel: {
-      enabled: true,
+      enabled: false,
       // чувствительность колеса мыши
       sensitivity: 100,
       // класс объекта на котором будет срабатывать прокуртка мышью

@@ -1,16 +1,16 @@
-@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2&display=swap");
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-family: "Exo 2", Arial, Helvetica, sans-serif;
 }
 .body {
   margin: 0;
   padding: 0;
   height: 100%;
   background-color: #333;
-  font-family: "Muli", Arial, Helvetica, sans-serif;
+  font-family: "Exo 2", Arial, Helvetica, sans-serif;
   line-height: 1;
 }
 .wrapper {
@@ -65,8 +65,6 @@
 }
 
 /*HERO*/
-.hero {
-}
 .hero__container {
   text-align: left;
 }
@@ -75,6 +73,7 @@
   font-size: 48px;
   font-weight: 700;
   color: #fff;
+  text-align: center;
 }
 
 .hero-swiper {
@@ -82,8 +81,8 @@
 }
 
 /*hero-swiper-slider*/
-.hero-swiper-wrapper {
-}
+// .hero-swiper-wrapper {
+// }
 
 /*для корректной работы slidesPerView: 'auto',*/
 /*.hero-swiper .swiper-slide {
@@ -126,14 +125,12 @@
 }
 
 /*hero-swiper-navigation*/
-.hero-swiper-navigation {
-}
+// .hero-swiper-navigation {
+// }
 
 /*пагинация*/
 #hero-swiper-pgn {
   bottom: 20px;
-}
-.hero-swiper-pgn {
 }
 /*пагинация-буллеты*/
 .hero-swiper-pgn .swiper-pagination-bullet {
@@ -159,17 +156,9 @@
 }
 
 /*кнопки навигации*/
-.hero-swiper-nav-btns {
-}
-.hero-swiper-nav-btn {
-}
 .hero-swiper-nav-btn::after {
   font-size: 60px;
   color: #fff;
-}
-.hero-swiper-nav-btn--prev {
-}
-.hero-swiper-nav-btn--next {
 }
 
 /*скролл*/
