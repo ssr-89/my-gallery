@@ -71,14 +71,14 @@
   text-align: left;
 }
 .hero__title {
-  margin: 0 0 1rem 0;
+  margin: 0 0 30px 0;
   font-size: 48px;
   font-weight: 700;
   color: #fff;
 }
 
 .hero-swiper {
-  padding: 50px 0;
+  padding: 0 0 50px;
 }
 
 /*hero-swiper-slider*/
@@ -164,7 +164,7 @@
 .hero-swiper-nav-btn {
 }
 .hero-swiper-nav-btn::after {
-  font-size: 80px;
+  font-size: 60px;
   color: #fff;
 }
 .hero-swiper-nav-btn--prev {
