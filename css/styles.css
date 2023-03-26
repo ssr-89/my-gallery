@@ -82,7 +82,7 @@
 
 /*HERO*/
 .hero__container {
-  text-align: left;
+  text-align: center;
 }
 
 .hero__title {
@@ -90,7 +90,6 @@
   font-size: 48px;
   font-weight: 700;
   color: #fff;
-  text-align: center;
 }
 
 .hero-swiper {

@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
 
     /*Скорость переключения слайдов*/
-    speed: 300,
+    // speed: 300,
 
     /*Вертикальное прокручивание - дополнительно для корректной работы необходимо задать всему swiper фиксированную высоту и сбросить внутренние отступы*/
     //direction: 'vertical',
@@ -90,8 +90,6 @@ document.addEventListener("DOMContentLoaded", () => {
     //   // тень
     //   slideShadows: true,
     // },
-
-    freeMode: true,
 
     /*Пагинация (ТОЧКИ)*/
     pagination: {
