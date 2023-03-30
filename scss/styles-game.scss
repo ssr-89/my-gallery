@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+}
+body {
+  margin: 0;
+  background-color: rgba(220, 220, 220, 1);
+  color: rgba(3, 3, 3, 1);
+  overflow: hidden;
+}
+.btn {
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+.btn:disabled {
+  cursor: default;
+}
+.game-link {
+  position: fixed;
+  top: 50px;
+  left: 50px;
+}
+
+/*#game {}*/
+.game-container {
+  margin: 0 auto;
+  width: 100%;
+}
+.game-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  width: 100%;
+  height: 100vh;
+  transition: margin 0.3s ease-in-out;
+}
+.game-top.up {
+  margin-top: -100vh;
+}
+.game-top-title {
+  margin: 0;
+  margin-bottom: 35px;
+  font-size: 60px;
+  line-height: 1;
+}
+.game-top-text {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 1.5em;
+}
+.game-top-form {
+  max-width: 500px;
+}
+.game-top-form-input {
+  padding: 5px 10px;
+  width: 350px;
+  font-size: 20px;
+  line-height: 1;
+  border: none;
+}
+.game-top-form-input::placeholder {
+  line-height: 1;
+}
+#start-game {
+  padding: 5px 10px;
+  font-size: 20px;
+  line-height: 1;
+}
+.game-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+}
+.game-wrapper-title {
+  margin: 0;
+  font-size: 60px;
+  line-height: 1;
+  opacity: 0;
+  visibility: hidden;
+}
+.game-wrapper-title.show {
+  opacity: 1;
+  visibility: visible;
+}
+.game-wrapper-timer {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1;
+}
+#cards {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 400px;
+}
+.card {
+  background: transparent;
+  background-image: url("../img/game/shirt.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 0 1 100px;
+  min-height: 160px;
+  font-size: 60px;
+  line-height: 1;
+  color: transparent;
+  transition: background-image 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.card.open {
+  background-image: none;
+  color: rgba(3, 3, 3, 1);
+}
+#start-game-over {
+  padding: 5px 10px;
+  font-size: 20px;
+  line-height: 1;
+  opacity: 0;
+  visibility: hidden;
+}
+#start-game-over.show {
+  opacity: 1;
+  visibility: visible;
+}
