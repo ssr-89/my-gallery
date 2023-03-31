@@ -80,14 +80,6 @@
   padding: 50px;
 }
 
-.hero-link {
-  position: fixed;
-  top: 20px;
-  left: 50px;
-  font-size: 30px;
-  color: yellow;
-}
-
 /*HERO*/
 .hero__container {
   text-align: center;

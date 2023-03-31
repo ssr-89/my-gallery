@@ -42,14 +42,6 @@
   .hero__container {
     padding: 30px;
   }
-  /*GAME*/
-  .game-container {
-    padding: 10px;
-  }
-  .game-wrapper-title {
-    text-align: center;
-    font-size: 48px;
-  }
 }
 @media (max-width: 767.98px) {
   .hero__title {
@@ -62,46 +54,6 @@
   /*пагинация*/
   #hero-swiper-pgn {
     margin-bottom: 20px;
-  }
-  /*GAME*/
-  .game-top-title {
-    margin-bottom: 20px;
-    font-size: 48px;
-  }
-  .game-top-text {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .game-top-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: column nowrap;
-    gap: 20px;
-    width: 100%;
-  }
-  .game-top-form-input::-moz-placeholder {
-    opacity: 0;
-    visibility: hidden;
-  }
-  .game-top-form-input::placeholder {
-    opacity: 0;
-    visibility: hidden;
-  }
-  .game-top-form-input {
-    width: 140px;
-  }
-  .game-wrapper-title {
-    font-size: 42px;
-    line-height: 1.5;
-  }
-  .game-wrapper-timer {
-    font-size: 20px;
-  }
-  .card {
-    flex: 0 1 80px;
-    min-height: 128px;
   }
 }
 @media (max-width: 575.98px) {
@@ -135,11 +87,5 @@
   .hero-swiper .swiper-pagination-fraction {
     font-size: 14px;
     color: #fff;
-  }
-  /*GAME*/
-  .card {
-    flex: 0 1 75px;
-    min-height: 120px;
-    font-size: 30px;
   }
 }
